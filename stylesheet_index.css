@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.main1 {
+    background-size: auto;
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 255), rgba(0,0,255,0.5)),
+    url(img/myweb_main_image00.jpg);
+    
+    margin: 0px, 20px, 20px, 20px;
+    padding: 100px;
+    
+
+    
+
+}
+
+.main1_text {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 1px 2px 3px #1d1d1d;
+}
+
+.logo_1 {
+    padding: 20px;
+    color: skyblue;
+    font-size: 40px;
+	font-style: italic;
+	text-decoration: none;
+    text-shadow: 1px 2px 3px #1d1d1d;
+
+}
+
+
+.main_menu1 {
+    font-size: 18px;
+    margin: 10px;
+    
+}
+.main_menu1:hover {
+    background-color:aqua
+}
+
+.bg1 {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    text-shadow: 1px 2px 3px royalblue;
+}
+
+
+
+/* スクロール*/
+.info{
+    background-color: blue;
+}
+ 
+.text{
+    font-size:2em;
+    color: white;
+    animation: flowing 10s linear infinite;
+    transform: translateX(100%);/*初期位置*/
+}
+
+@keyframes flowing {
+    100% {
+      transform: translateX(-100px);
+    }
+}
+
+footer{
+
+    text-align: center;
+    font-size: medium;
+}
