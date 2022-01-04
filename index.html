@@ -2,26 +2,49 @@
 <html lang="ja">
 	<head>
         <meta charset="UTF-8">
-        <title>Kz-sm</title>
+        <title>Kz-sm's Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet_index.css">
-  
+        <script src="https://kit.fontawesome.com/b4202022f8.js" ></script>
+    
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script>
+            $(function(){
+                $(".headC").click(function(){
+                    $(".headB").slideToggle();
+                });
+            });
+        </script>
+    
     </head>
     <body>
         <header>
-            <a class="logo_1" href="index.html">Kz-sm</a>
-            <a class="main_menu1" href="samplist.html">ブログ</a>
-            <a class="main_menu1" href="link.html">Link</a>
-            <a class="main_menu1" href="link.html">About me</a>
-            <a id="caren"></a>
-
+            <div class="container">
+                <a class="headA" href="index.html">Kz-sm's Web</a>
+                
+                <button type="button" class="headC">
+                    <span class="fa fa-bars" title="MENU"></span>
+                </button>
+                
+                <nav class="headB">
+                    <ul>
+                        <li><a href="blog_no001.html">Blog</a></li>
+                        <li><a href="link.html">Link</a></li>
+                        <li><a href="link.html">About me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <section class="main1">
-            <h1>Welcome</h1>
+        <section class="conA">
+            <div class="container">
+                <h1>Kz-sm's Web</h1>
+                <h2>Wellcome</h2>
+                <p id="inf" class="text"></p>
+
+            </div>
 
         </section>
-        <div class="info">
-            <p id="inf" class="text"></p>
-        </div>
 
         <script type="text/javascript" src="index.js"></script>    
     </body>
