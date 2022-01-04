@@ -1,7 +1,7 @@
 let carender = new Date();
 
 let date = carender.toLocaleDateString();
-let info = "INFORMATION　現在作成中 （今日は　" + date　+ "です。）";
+let info = "Today is " + date;
 
 document.getElementById("inf").textContent = info;
 
