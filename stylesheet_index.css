@@ -49,7 +49,7 @@ body {
 	background-size: cover;
 	color: #fff;
 	color: var(--text-bright-color);
-	text-align: center;
+	/* text-align: center; */
     }
 
 .conA h1 {
