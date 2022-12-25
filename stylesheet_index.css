@@ -37,6 +37,7 @@ body {
 	margin: 0;
 	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
+
 /* コンテンツA：　ヒーローイメージ */
 .conA {
 	display: flex;
@@ -148,7 +149,7 @@ header {
 	display: block;
 	padding: 15px;
 	color: inherit;
-	font-size: 12px;
+	font-size: 15px;
 	text-decoration: none;
 }
 
@@ -178,7 +179,7 @@ header {
 	header .container-small {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;		
+		justify-content: space-between;
 	}
 
 	.headC {
